@@ -8,5 +8,3 @@ console.log(
         { apple: 1, bat: 2 }
     )
 );
-
-//
