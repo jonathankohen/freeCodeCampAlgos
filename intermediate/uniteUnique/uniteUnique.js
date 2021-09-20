@@ -7,7 +7,7 @@
 // Check the assertion tests for examples.
 
 function uniteUnique(...args) {
-    return [...new Set(args.sort((a, b) => a - b).flat())];
+    return [...new Set(args.flat())];
 }
 
 module.exports = uniteUnique;
